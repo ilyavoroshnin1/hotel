@@ -1,3 +1,5 @@
+package other;
+
 public enum Animal {
     DOG("Собака"), CAT("Кошка"), FROG("Лягушка");
 
@@ -13,7 +15,7 @@ public enum Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
+        return "other.Animal{" +
                 "translation='" + translation + '\'' +
                 '}';
     }

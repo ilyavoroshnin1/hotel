@@ -1,3 +1,5 @@
+package other;
+
 public class Room {
     private int num; // номер комнаты
     private int place; // спальные места
