@@ -6,7 +6,6 @@ import java.util.concurrent.BlockingDeque;
 
 public class ProducerConsumerTest {
     private static ArrayBlockingQueue<Integer> queue = new ArrayBlockingQueue<>(10);
-
     public static void main(String[] args) throws InterruptedException {
         Thread thread1 = new Thread(new Runnable() {
             @Override
